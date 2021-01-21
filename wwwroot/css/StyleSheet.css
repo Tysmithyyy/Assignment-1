@@ -1,0 +1,25 @@
+﻿body {
+    font-family: sans-serif;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+img {
+    width: 50vw;
+}
+
+#calculator {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-auto-rows: auto;
+    grid-gap: 5px;
+    justify-content: start;
+}
+
+input[type=number] {
+    width: 50px;
+}
+
+form label {
+    justify-self: end;
+}
